@@ -1,6 +1,8 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -35,6 +37,11 @@ nav {
 
 img {width: 100%;}
 
+body {
+  background-image: url("../images/scott-webb-UjupleczBOY-unsplash.jpg"/);
+  background-repeat: no-repeat;
+}
+
 .grid-2{
   display: flex;
   margin-top: 60px;
@@ -52,9 +59,14 @@ img {width: 100%;}
 }
 
 .content h2{
+  font-family: 'Sansita Swashed', sans-serif;
   position: absolute;
   top: 0;
   left: -50;
+}
+
+.gridcon {
+  padding-top: 80 px;
 }
 
 .mainp1 {
@@ -96,4 +108,8 @@ img {width: 100%;}
 .button:hover {
  color: #ff9900;
  background-color: #fff;
+}
+
+.inspiro-img{
+  
 }
