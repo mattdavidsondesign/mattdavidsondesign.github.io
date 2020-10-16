@@ -38,7 +38,7 @@ nav {
 img {width: 100%;}
 
 body {
-  background-image: url("../images/scott-webb-UjupleczBOY-unsplash.jpg"/);
+  background-image: url("../images/unsplashConcrete.jpg");
   background-repeat: no-repeat;
 }
 
@@ -61,7 +61,7 @@ body {
 .content h2{
   font-family: 'Sansita Swashed', sans-serif;
   position: absolute;
-  top: 0;
+  top: -30px;
   left: -50;
 }
 
@@ -110,6 +110,3 @@ body {
  background-color: #fff;
 }
 
-.inspiro-img{
-  
-}
