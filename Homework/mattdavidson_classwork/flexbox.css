@@ -1,0 +1,28 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-around;*/
+    justify-content: flex-end;
+    height: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.logout{
+/*margin-left: auto;*/
+align-self: flex-start;
+order: -1;
+}
+
+.home{
+    margin-right: auto;
+    align-self: flex-end;
+}
+
+.container > div {
+    flex: 1;
+}
+
+.container > .search {
+    flex: 2;
+}

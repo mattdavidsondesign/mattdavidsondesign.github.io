@@ -1,0 +1,155 @@
+*{
+    background-color: black;
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 100px;
+}
+
+h3{
+    color: #575757;
+}
+
+.container{
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-around;*/
+    justify-content: flex-end;
+    height: 100%;
+    align-items: stretch;
+    /*flex-wrap: wrap;*/
+    position: relative;
+    object-fit: contain;
+}
+
+.container .title{
+    flex: none;
+    position: absolute;
+    padding-top: 0%;
+    padding-right: 50%;
+}
+
+.container .title .head-img{
+    flex: none;
+    position: absolute;
+    /*justify-content: flex-start;*/
+    justify-content: center;
+    background-image: url(images/klheader.png);
+    background-size: cover;
+    height: 632px;
+    width: 1592px;
+    padding-right: 200px;
+    padding-left: -1000px;
+
+}
+
+.container .title h1{
+    flex: none;
+    position: absolute;
+    padding-top: 50%;
+    padding-right: 50%;
+    background-color: transparent;
+    font-size: 96pt;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+}
+
+.nav{
+    flex: 1;
+    background-color: #4767a4;
+    height: 100%;
+    position: fixed;
+}
+
+.nav img{
+    background-color: transparent;
+    max-width: 200px; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.nav a{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4767a4;
+}
+
+.nav .link{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4767a4;
+}
+
+.col1{
+    flex: 1;
+    padding-left: 250px;
+    padding-top: 750px;
+}
+
+.col1 img{
+    transform: rotate(90deg);
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+}
+
+.col2{
+    flex: 1;
+    padding: 0px 15px;
+    padding-top: 750px;
+}
+
+.col2 img{
+    transform: rotate(90deg);
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+}
+
+.col1pg{
+    flex: 1;
+    padding-left: 250px;
+}
+
+.col1pg img{
+    transform: rotate(-90);
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+}
+
+.col2pg{
+    flex: 1;
+    padding: 0px 15px;
+}
+
+.col2pg img{
+    transform: rotate(-90);
+    flex: 1;
+    display: flex;
+    max-width: 100% ;
+   
+}
+
+.footer{
+    margin-top: 500px; 
+    margin-bottom: 500px; 
+    height: 500px; 
+    background-color: #192145;
+}

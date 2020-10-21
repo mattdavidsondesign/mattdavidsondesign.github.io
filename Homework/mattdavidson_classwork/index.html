@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-<title>HTML Cheat Sheet</title>
+<title>HTML and CSS Cheat Sheet</title>
+<link rel="stylesheet" type="text/css" href="mattdavidson_classwork/style.css">
 <meta name="description" content="Awesome blog">
 <meta name="keywords" content="web design blog, web dev blog, company name">
 <style type="text/css">
-
+h1 {
+    color:blue;
+}
 </style>
     </head>
     <body>
+       <div class="container">
         <!--Headings-->
         <h1>Heading One</h1>
         <h2>Heading Two</h2>
@@ -67,7 +71,7 @@
         <hr>
         <br>
         <form action="process.php" method="POST">
-            <div>
+            <div class="box-1">
 
                 <label>First Name</label>
                 <input type="text" name="first-name" placeholder="Enter first name">
@@ -97,6 +101,86 @@
                 <input type="submit" name="submit" value="Submit">
             </div>
         </form>
+        <form class="my-form">
+            <div class="box-2">
+
+                <section class="form-group">
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="Enter first name">
+                </section>
+
+                <section class="form-group">
+                <label>Last Name</label>
+                <input type="text" name="last-name" placeholder="Enter last name">
+                </section>
+                
+                <section class="form-group">
+                <label>Email</label>
+                <input type="email" name="email">
+                </section>
+                
+                <section class="form-group">
+                <label>Message</label>
+                <textarea name="message"></textarea>
+                </section>
+                
+                <section class="form-group">
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                </section>
+
+                 <section class="form-group">  
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+                </section>
+
+                <section class="form-group">
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+                </section>
+                
+                <input type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque non voluptates repudiandae veniam deleniti amet, inventore labore temporibus omnis!</p>
+        </div>
+        
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque non voluptates repudiandae veniam deleniti amet, inventore labore temporibus omnis!</p>
+        </div>
+        
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque non voluptates repudiandae veniam deleniti amet, inventore labore temporibus omnis!</p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="main-block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque non voluptates repudiandae veniam deleniti amet, inventore labore temporibus omnis!</p>
+        </div>
+
+        <div id="sidebar">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque non voluptates repudiandae veniam deleniti amet, inventore labore temporibus omnis!</p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="p-box">
+            <h1>Hello</h1>
+            <h2>Goodbye</h2>
+        </div>
+
+        <a class="fix-me button" href="">Hello</a>
 
         <!--Button-->
         <button click="">Click Me</button>
@@ -115,7 +199,7 @@
             <small>Byline</small>
         </article>
         
-        <aside>
+        <aside class="categories">
             <h3>Categories</h3>
             <nav>
             <ul>
@@ -127,10 +211,18 @@
             </nav>
         </aside>
 
+        <ul class="my-list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+
         <div style="margin-top: 500px;"></div>
     
          <footer>
         <p>Copyright &copy;</p>
         </footer>
+        </div>
     </body>
 </html>
