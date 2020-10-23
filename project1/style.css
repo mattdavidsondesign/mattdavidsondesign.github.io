@@ -5,6 +5,10 @@
     font-style: bold;
 }
 
+body{
+    margin: 0;
+}
+
 p{
     font-size: 20px;
     line-height: 1.5;
@@ -40,7 +44,7 @@ h3{
     flex: none;
     position: absolute;
     padding-top: 0%;
-    padding-right: 50%;
+    padding-right: 100%;
 }
 
 .container .title .head-img{
