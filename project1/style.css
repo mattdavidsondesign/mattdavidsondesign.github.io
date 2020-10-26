@@ -42,22 +42,22 @@ h3{
 
 .container .title{
     flex: none;
-    position: absolute;
+    /* position: absolute; */
     padding-top: 0%;
     padding-right: 100%;
 }
 
-.container .title .head-img{
-    flex: none;
-    position: absolute;
+header{
+    /* flex: none;
+    position: absolute; */
     /*justify-content: flex-start;*/
-    justify-content: center;
+    /* justify-content: center; */
     background-image: url(images/klheader.png);
     background-size: cover;
     height: 632px;
-    width: 1592px;
-    padding-right: 200px;
-    padding-left: -1000px;
+    /* width: 1592px; */
+    /* padding-right: 200px;
+    padding-left: -1000px; */
 
 }
 
@@ -70,6 +70,7 @@ h3{
     font-size: 96pt;
     color: transparent;
     -webkit-text-stroke: 3px white;
+    text-transform: uppercase;
 }
 
 .nav{
@@ -101,15 +102,23 @@ h3{
 }
 
 .col1{
-    flex: 1;
+    /* flex: 1;
     padding-left: 250px;
-    padding-top: 750px;
+    padding-top: 750px; */
+    display: flex;
+    margin-top: 300px;
+    width: 100%;
+}
+
+.col1 div{
+   flex: 1;
+   
 }
 
 .col1 img{
     transform: rotate(90deg);
     flex: 1;
-    display: flex;
+    /* display: flex; */
     max-width: 100%;
     padding: 0px 15px;
 }
@@ -152,15 +161,15 @@ h3{
    
 }
 
-/* .img-foot{
+.img-foot{
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-} */
+}
 
-.footer{
-    margin-top: 500px; 
-    margin-bottom: 500px; 
+footer{
+    background-image:url('images/kllineup.png');
+    background-size: cover;
     height: 500px; 
     background-color: #192145;
 }
