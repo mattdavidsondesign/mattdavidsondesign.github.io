@@ -3,6 +3,7 @@
     color: white;  
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    box-sizing: border-box;
 }
 
 body{
