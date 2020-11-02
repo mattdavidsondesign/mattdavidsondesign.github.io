@@ -110,3 +110,60 @@ body {
  background-color: #fff;
 }
 
+.slider{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid blue;
+}
+
+.slide-content {
+  display: grid;
+  /* grid-template-columns; */
+}
+
+.slide-content .text-content {
+  margin-left: 20px;
+}
+
+.slide-content img {
+  width: 100%;
+}
+
+.slick-initialized .slick-slide{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+
+.button2{
+  background-color: #ff0000;
+  padding: 12px 16px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+}
+
+.button2:hover {
+  /* background-color: #ff9900; */
+  animation-name: button-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button-hover{
+  from {background-color: #ff0000;
+        color: white;}
+  to {background-color: #ff9900;
+      color: olive;}
+}
+
+.tokyorec{
+  width: 400px;
+  margin: 100px;
+}
+
+cls-4, cls-5, cls-6, cls-7, cls-8, cls-9, cls-10, cls-11, cls-12, cls-13, cls-14, cls-15, cls-16, cls-17{
+  rotate: infinite;
+}
