@@ -4,8 +4,8 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/mattdavidson/Documents/DES341/mattdavidsondesign.github.io/project2/DAV341pietrocomp Folder/Document fonts/AdobeFnt22.lst
-FileLength:642
+OutlineFileName:/Users/mattdavidson/Documents/DES341/mattdavidsondesign.github.io/project2/Layout/DAV341pietrocomp Folder/Document fonts/AdobeFnt22.lst
+FileLength:887
 FileModTime:626146781
 %EndFont
 
@@ -22,7 +22,7 @@ WidthClass:5
 AngleClass:0
 FullName:Minion Pro
 WritingScript:Roman
-OutlineFileName:/Users/mattdavidson/Documents/DES341/mattdavidsondesign.github.io/project2/DAV341pietrocomp Folder/Document fonts/MinionPro-Regular.otf
+OutlineFileName:/Users/mattdavidson/Documents/DES341/mattdavidsondesign.github.io/project2/Layout/DAV341pietrocomp Folder/Document fonts/MinionPro-Regular.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes

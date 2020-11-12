@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,800&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: #f1f2f2;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1{
+    font-family: 'Sarina', cursive;
+    color: #be1e2d;
+}
+
+h2{
+    font-family: 'Sarina', cursive;
+    color: #be1e2d;
+}
+
+.logo{
+    position: center;
+    padding: 0px 100px;
+    margin: -300px 0px;
+}
+
+.skull{
+    transform: rotate(-9.5deg);
+    margin: 15px;
+}
+
+.cannon{
+    transform: rotate(29deg);
+    margin: 15px;
+}
+
+.whiteboxright{
+    background-color: white;
+    padding: 15px 30px 15px 15px;
+    margin: 30px 0px 30px 30px;
+}
+
+.whiteboxleft{
+    background-color: white;
+    padding: 15px 15px 15px 30px;
+    margin: 30px 30px 30px 0px;
+}
+
+.location{
+    display: flex;
+    margin-top: 300px;
+    width: 100%;
+}
+
+.locvert{
+    display: flex;
+    margin-top: 300px;
+    height: 100%;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-2 label{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+  a:hover {
+    color: #aaa
+  }
+
+/* // Main Navigation Area */
+#navigation {
+  position: relative;
+  background-color: #d2232a
+  box-shadow: 0 0 12px rgba(#000, 0.26);
+
+  /* // Menu */
+  ul {
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        padding: 30px 20px;
+        font-size: 14px;
+      }
+      
+      .current-item a {
+        color: #000;
+      }
+    }
+  }
+
+  /* // Sliding Underline */
+  #slide-line {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #ef682c;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
