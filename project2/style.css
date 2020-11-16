@@ -6,6 +6,37 @@ margin: 0px;
 padding: 0px;
 }
 
+@media (max-width: 768px) {
+    body {
+      font-size: 15px;
+      background-color: #f1f2f2;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    h1{
+        font-family: 'Sarina', cursive;
+        color: #be1e2d;
+    }
+    .location{
+        display: flex;
+        margin-top: 300px;
+        width: 100%;
+        flex-direction: column;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      background-color: #f1f2f2;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    h1{
+        font-family: 'Sarina', cursive;
+        color: #be1e2d;
+    }
+    .location{
+        flex-direction: row;
+    }
+  }
+
 body{
     background-color: #f1f2f2;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -57,8 +88,10 @@ h2{
 
 .locvert{
     display: flex;
-    margin-top: 300px;
+    flex: 1;
+    flex-direction: column;
     height: 100%;
+    padding: 0px 50px;
 }
 
 .box-2{
@@ -137,3 +170,58 @@ h2{
     transition: all 0.3s ease;
   }
 }
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: white;
+    color: #d2232a;
+    font-family: 'Sarina', cursive;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  /* Image Carousel */
+  .slider{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid blue;
+  }
+  
+  .slide-content {
+    display: grid;
+    /* grid-template-columns; */
+  }
+  
+  .slide-content .text-content {
+    margin-left: 20px;
+  }
+  
+  .slide-content img {
+    width: 100%;
+  }
+  
+  .slick-initialized .slick-slide{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
