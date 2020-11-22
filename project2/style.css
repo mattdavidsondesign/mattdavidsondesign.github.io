@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,800&display=swap');
 
 *{
+box-sizing: border-box;
 margin: 0px;
 padding: 0px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body {
       font-size: 15px;
       background-color: #f1f2f2;
@@ -23,6 +24,11 @@ padding: 0px;
         flex-direction: column; 
    } */
 
+   .grid-2{
+       display: flex;
+       flex-direction: column;
+   }
+
   @media (min-width: 768px) {
     body {
       background-color: #f1f2f2;
@@ -35,6 +41,14 @@ padding: 0px;
     /* .location{
         flex-direction: row; */
     /* } */
+    
+    .grid-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-2 div{
+        flex: 1;
+    }
   }
 
 body{
@@ -167,7 +181,7 @@ h2{
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-}
+
 
 
 /* Style the button that is used to open and close the collapsible content */
