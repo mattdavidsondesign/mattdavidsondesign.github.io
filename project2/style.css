@@ -29,48 +29,7 @@ padding: 0px;
        flex-direction: column;
    }
 
-  @media (min-width: 768px) {
-    body {
-      background-color: #f1f2f2;
-      font-family: 'Montserrat Alternates', sans-serif;
-    }
-    h1{
-        font-family: 'Sarina', cursive;
-        color: #be1e2d;
-    }
-    /* .location{
-        flex-direction: row; */
-    /* } */
-    
-    .grid-2{
-        display: flex;
-        flex-direction: row;
-    }
-    .grid-2 div{
-        flex: 1;
-    }
-
-    .skull{
-        animation: toggle 2s ease-in-out infinite alternate;
-        transform-origin: center;
-        transform-box: fill-box;
-    }
-
-    .cannon{
-        animation: toggle 2s ease-in-out infinite alternate;
-        transform-origin: center;
-        transform-box: fill-box;
-    }
-
-    @keyframes toggle{
-        from{
-            transform: rotateZ(0deg);
-        }
-        to{
-            transform: rotateZ(15deg);
-        }
-    }
-  }
+ 
 
 body{
     background-color: #f1f2f2;
@@ -119,6 +78,14 @@ h2{
     display: flex;
     margin-top: 300px;
     width: 100%;
+    flex-direction: column;
+}
+
+.location2{
+  display: flex;
+  margin-top: 300px;
+  width: 100%;
+  flex-direction: column-reverse;
 }
 
 .locvert{
@@ -173,23 +140,45 @@ h2{
     color: #aaa
   }
 
+  .party{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .party section{
+    flex: .5;
+    padding: 15px;
+  }
+
+  .imagegrid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagerow{
+    flex: 1;
+  }
+
 /* // Main Navigation Area */
 #navigation {
   position: relative;
   background-color: #d2232a;
+  
   /* box-shadow: 0 0 12px rgba(#000, 0.26); */
 }
-
+#navigation ul{
+  justify-content: space-between;
+}
   /* // Menu */
-  ul li {
+  #navigation ul li {
       display: inline-block;}
-     ul a {
+      #navigation ul a {
         display: inline-block;
         padding: 30px 20px;
         font-size: 14px;
       }
       
-      ul .current-item a {
+      #navigation ul .current-item a {
         color: #000;
       }
 
@@ -232,6 +221,20 @@ h2{
     background-color: #f1f1f1;
   }
 
+  .content h3{
+    padding-top: 10px;
+  }
+
+  .content p{
+    color: 	#696969;
+    padding-bottom: 5px;
+  }
+
+  .content ul li{
+    color: 	#808080;
+    list-style-type:none;
+  }
+
   /* Image Carousel */
   .slider{
     width: 60%;
@@ -257,4 +260,80 @@ h2{
   .slick-initialized .slick-slide{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      background-color: #f1f2f2;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    h1{
+        font-family: 'Sarina', cursive;
+        color: #be1e2d;
+    }
+    .location{
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .location div{
+        flex: .5;
+    }
+
+    .location2{
+      display: flex;
+      flex-direction: row;
+  } 
+
+  .location2 div{
+      flex: .5;
+  }
+    
+    .grid-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-2 div{
+        flex: 1;
+    }
+
+    .skull{
+        animation: toggle 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    .cannon{
+        animation: toggle 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    @keyframes toggle{
+        from{
+            transform: rotateZ(0deg);
+        }
+        to{
+            transform: rotateZ(15deg);
+        }
+    }
+
+    .party{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .party section{
+      flex: .5;
+    }
+
+    .imagegrid{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .imagerow{
+      flex: .5;
+      flex-direction: row;
+    }
   }
