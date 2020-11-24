@@ -255,6 +255,6 @@ h2{
   }
   
   .slick-initialized .slick-slide{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
