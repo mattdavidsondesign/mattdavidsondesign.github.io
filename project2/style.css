@@ -49,6 +49,27 @@ padding: 0px;
     .grid-2 div{
         flex: 1;
     }
+
+    .skull{
+        animation: toggle 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    .cannon{
+        animation: toggle 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    @keyframes toggle{
+        from{
+            transform: rotateZ(0deg);
+        }
+        to{
+            transform: rotateZ(15deg);
+        }
+    }
   }
 
 body{
@@ -68,8 +89,8 @@ h2{
 
 .logo{
     position: center;
-    padding: 0px 100px;
-    margin: -300px 0px;
+    padding: 40px 100px;
+    
 }
 
 .skull{
