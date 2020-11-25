@@ -46,6 +46,11 @@ h2{
     color: #be1e2d;
 }
 
+img{
+  width: 100;
+  height: auto;
+}
+
 .logo{
     position: center;
     padding: 40px 100px;
@@ -148,6 +153,10 @@ h2{
   .party section{
     flex: .5;
     padding: 15px;
+  }
+
+  .party .info{
+    background-color: #fbb040;
   }
 
   .imagegrid{
