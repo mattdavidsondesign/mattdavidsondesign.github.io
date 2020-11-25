@@ -51,6 +51,23 @@ img{
   height: auto;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fbb040;
+}
+
+a:visited{
+  color: black;
+}
+
+a:active{
+  color: #fbb040;
+}
+
 .logo{
     position: center;
     padding: 40px 100px;
@@ -201,8 +218,8 @@ img{
   #slide-line {
     position: absolute;
     bottom: 0;
-    height: 2px;
-    background-color: #ef682c;
+    height: 4px;
+    background-color: #fbb040;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
