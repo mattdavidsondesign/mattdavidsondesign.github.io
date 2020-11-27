@@ -52,3 +52,13 @@ $('.my-slick').slick({
         }
     ]
 })
+
+var shins = $("#am-song")[0];
+    
+    $("#am-button").click(function() {
+      if ($('audio#am-song')[0].paused == false ){
+        am.pause();
+      } else {
+        am.play();
+      }
+    });
